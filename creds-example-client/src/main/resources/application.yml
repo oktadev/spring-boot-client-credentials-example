@@ -1,0 +1,9 @@
+example:
+    baseUrl: http://localhost:8080
+    oauth2:
+        client:
+            grant-type: client_credentials
+            clientId: {your-client-id-here}
+            clientSecret: {your-client-secret-here}
+            accessTokenUri: {your-issuer-url-here}/v1/token
+            scope: custom_mod

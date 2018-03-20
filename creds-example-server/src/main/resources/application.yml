@@ -1,0 +1,7 @@
+security:
+  oauth2:
+    client:
+      clientId: {your-client-id-here}
+      clientSecret: {your-client-secret-here}
+    resource:
+      tokenInfoUri: {your-issuer-url-here}/v1/introspect
